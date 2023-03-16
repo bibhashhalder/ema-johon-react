@@ -1,9 +1,10 @@
 .shop_container{
-    
+    position: relative;
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
 .ptroduc{
+    position: static;
     margin-top: 20px;
     margin-left: 25px;
     display: grid;
