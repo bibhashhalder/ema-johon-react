@@ -1,10 +1,22 @@
 .shop_container{
-    margin-left: 20px;
+    
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
 .ptroduc{
+    margin-top: 20px;
+    margin-left: 25px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+}
+.shop_text{
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+}
+
+.cart_contaioner{
+    background-color: rgb(248, 198, 132);
+    padding-left: 30px;
 }
